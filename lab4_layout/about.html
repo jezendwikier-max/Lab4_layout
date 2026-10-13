@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html" class="active">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+        
+        <section id="wrapper">
+            <section id="main" style="width: 940px;"> <!-- Lebar penuh karena tanpa sidebar -->
+                <article class="entry about-section">
+                    <h2>Tentang Kami</h2>
+                    <img src="https://dummyimage.com/200/428bca/fff.png" alt="Profile">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc pretium ac.</p>
+                    <p>Kami adalah tim pengembang yang berfokus pada pembuatan antarmuka web yang bersih, responsif, dan mudah digunakan. Visi kami adalah memberikan pengalaman digital terbaik bagi setiap pengguna.</p>
+                </article>
+
+                <hr class="divider" />
+
+                <h2 style="margin-bottom: 20px;">Portfolio & Keahlian</h2>
+                <div class="row">
+                    <div class="box">
+                        <img src="https://dummyimage.com/120/1f5faa/fff.png" alt="" class="image-circle">
+                        <h3>Web Design</h3>
+                        <p>Membuat desain antarmuka modern yang ramah pengguna (UI/UX).</p>
+                    </div>
+                    <div class="box">
+                        <img src="https://dummyimage.com/120/2b83ea/fff.png" alt="" class="image-circle">
+                        <h3>Development</h3>
+                        <p>Mengembangkan aplikasi web responsif menggunakan HTML, CSS, dan JavaScript.</p>
+                    </div>
+                    <div class="box">
+                        <img src="https://dummyimage.com/120/428bca/fff.png" alt="" class="image-circle">
+                        <h3>SEO & Branding</h3>
+                        <p>Membantu optimasi mesin pencari dan memperkuat identitas brand digital Anda.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+
+</html>
